@@ -1,0 +1,9 @@
+functions-framework
+SQLAlchemy
+PyMySQL
+google-cloud-storage
+cloud-sql-python-connector
+pandas
+gcsfs
+pandas
+fsspec 
