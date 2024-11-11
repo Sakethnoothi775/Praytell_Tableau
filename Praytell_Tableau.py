@@ -33,9 +33,7 @@ def hello_gcs(cloud_event):
     dataframe.columns = dataframe.columns.str.replace(" ", "_", regex=False)  # Replace spaces with underscores
 
     instance_connection_name = 'helpful-passage-431912-r1:us-central1:praytell-tableau'
-    db_user = 'root'
-    db_pass = 'praytell@tableau'
-    db_name = 'files'
+   
 
     ip_type = IPTypes.PRIVATE if os.environ.get("PRIVATE_IP") else IPTypes.PUBLIC
 
